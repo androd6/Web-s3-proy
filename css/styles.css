@@ -1,3 +1,9 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 body {
     font-size: 16px;
     color: rgb(255, 255, 255);
@@ -26,34 +32,79 @@ body {
     margin-top: 0;
     margin-bottom: 0;
     line-height: .20;
-  }
+}
 
-  #nav-list {
-    margin-top: 2px;
-  }
+#nav-list {
+  margin-top: 2px;
+}
 
-  #nav-list a {
-    color: #eff3ec;
-    text-align: center;
-  }
+#nav-list a {
+  color: #eff3ec;
+  text-align: center;
+}
 
-  #nav-list a:hover {
-    background: #4CAF50;
-  }
+#nav-list a:hover {
+  background: #4CAF50;
+}
 
-  .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
-    border: 1px solid #212121;
-  }
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #212121;
+}
   
-  .navbar-header button.navbar-toggle {
-    clear: both;
-    margin-top: -40px;
-  }
-  /** HEADER **/
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -40px;
+}
+  
+/** HEADER **/
 
-  #menutext{
-    margin-bottom: 15px;
-    margin-top: 20px;
-    color: #757575;
-    
+/** BODY **/
+
+#menutext {
+  margin-bottom: 15px;
+  margin-top: 20px;
+  color: #212121;
+}
+
+.sec1{    
+  padding: 10px;
+}
+
+.div1 {
+  background-color: #BDBDBD;
+  height: 550px;
+  position: relative; 
+  box-shadow: 0 0 50px #757575;
+  border: 2px solid #757575;
+  color: #212121;
+  text-align: justify;
+}
+
+.div1 p {
+  margin: 15px;
+}
+
+.div1 a {
+  text-align: right;
+  margin: 15px;
+  color: #212121;
+}
+
+/** BODY **/
+
+/** MEDIA **/
+
+@media (max-width: 767px) {
+  .div1 { /* Restaurant name */
+    height: 650px;
+    font-size: 1.2em /* 1vw = 1% of viewport width */
   }
+}
+
+@media (max-width: 479px) {
+  .div1 { /* Restaurant name */
+    height: 550px;
+    font-size: 5vw; /* 1vw = 1% of viewport width */
+  }
+}
+
