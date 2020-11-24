@@ -7,7 +7,7 @@ body {
 
 /** HEADER **/
 #header-nav {
-    background-color: #689F38;
+    background-color: #388E3C;
     border-radius: 0;
     border: 0;
 }
@@ -27,4 +27,32 @@ body {
     margin-bottom: 0;
     line-height: .20;
   }
+
+  #nav-list {
+    margin-top: 2px;
+  }
+
+  #nav-list a {
+    color: #eff3ec;
+    text-align: center;
+  }
+
+  #nav-list a:hover {
+    background: #4CAF50;
+  }
+
+  .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: 1px solid #212121;
+  }
+  
+  .navbar-header button.navbar-toggle {
+    clear: both;
+    margin-top: -40px;
+  }
   /** HEADER **/
+
+  #menutext{
+    margin-bottom: 15px;
+    margin-top: 20px;
+    color: #757575;
+  }
